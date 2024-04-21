@@ -1,0 +1,49 @@
+.sectionservico {
+    background-color: rgb(214, 198, 193);
+    padding: 20px; /* Añade espacio interno para evitar superposiciones */
+}
+
+.imagen7 {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; /* Ajusta el tamaño de la imagen para adaptarse al contenedor */
+    opacity: 0.5; /* Asegúrate de que uses el punto decimal para la opacidad */
+    z-index: 1; /* Ajusta el orden de superposición */
+}
+
+.titulosecundario {
+    color: black;
+    font-size: 50px;
+    font-family: "Dancing Script";
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+    padding-top: 50px;
+    padding-bottom: 20px; /* Añade espacio para evitar superposiciones */
+}
+
+.beneficios {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    text-align: left;
+    margin: 20px 0;
+}
+.parrafoservicio {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+.experienciak {
+    background-color: rgb(214, 198, 193);
+    padding: 20px; /* Añade espacio interno para evitar superposiciones */
+}
+.experiencia {
+    font-size: 40px; 
+    margin-bottom: 10px; 
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    font-family: "Dancing Script";
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

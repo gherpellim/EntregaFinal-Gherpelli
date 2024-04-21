@@ -2,12 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
-.contenedor { /**MODIFICADO**/
+.contenedor-principal {
+  position: relative;
+  height: 800px;
+}
+
+.contenedor {
   display: flex;
   align-items: center;
   top: 0;
   width: 100%;
   position: sticky;
+  z-index: 1;
 }
 
 .navegador { /**MODIFICADO**/
@@ -19,14 +25,14 @@
   z-index: 1;
   width: 100%;
   height: 80px;
-  background-color: rgba(255, 255, 255, 0.5); /* Cambia el último valor (0.5) para ajustar la transparencia */
+  background-color: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px); /* Aplica un desenfoque al fondo */
+          backdrop-filter: blur(5px);
 }
 
-.navegador-imagen { /**MODIFICADO**/
-  width: 120px; /* Ajusta el ancho del logo */
-  height: auto; /* Para mantener la proporción */
+.navegador-imagen {
+  width: 120px;
+  height: auto;
 }
 
 .listainicio {
@@ -67,9 +73,9 @@
   position: relative;
   z-index: -1;
   opacity: 0.7;
-  background-color: rgba(255, 255, 255, 0.5); /* Cambia el último valor (0.5) para ajustar la transparencia */
+  background-color: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px); /* Aplica un desenfoque al fondo */
+          backdrop-filter: blur(5px);
 }
 
 .texto-sobreimagen { /**MODIFICADO**/
@@ -97,7 +103,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 90%; /* Ajusta la posición vertical */
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -158,6 +164,7 @@
   padding: 50px;
   padding-left: 150px;
   margin: 0;
+  opacity: 0.5;
 }
 
 .galeria img {
@@ -234,13 +241,13 @@
 
 .imagenmain {
   width: auto;
-  height: 500px; /* Asegúrate de incluir la unidad (px) para la altura */
+  height: 500px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 20px; /* Este margen lateral puede causar que la imagen se desborde del contenedor, considera ajustarlo */
+  margin-right: 20px;
   -o-object-fit: cover;
      object-fit: cover;
   background-color: rgba(255, 255, 255, 0.5);
@@ -261,6 +268,7 @@
   text-align: center;
   font-weight: 50px;
   margin: 30px;
+  margin-bottom: 10px;
 }
 
 .footerfinal {
@@ -280,6 +288,60 @@
   text-decoration: none;
   font-size: 18px;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sectionservico {
+  background-color: rgb(214, 198, 193);
+  padding: 20px; /* Añade espacio interno para evitar superposiciones */
+}
+
+.imagen7 {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover; /* Ajusta el tamaño de la imagen para adaptarse al contenedor */
+  opacity: 0.5; /* Asegúrate de que uses el punto decimal para la opacidad */
+  z-index: 1; /* Ajusta el orden de superposición */
+}
+
+.titulosecundario {
+  color: black;
+  font-size: 50px;
+  font-family: "Dancing Script";
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+  padding-bottom: 20px; /* Añade espacio para evitar superposiciones */
+}
+
+.beneficios {
+  font-family: "EB Garamond", serif;
+  font-size: 24px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.parrafoservicio {
+  font-family: "EB Garamond", serif;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.experienciak {
+  background-color: rgb(214, 198, 193);
+  padding: 20px; /* Añade espacio interno para evitar superposiciones */
+}
+
+.experiencia {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: black;
+  text-align: center;
+  margin-top: 0;
+  font-family: "Dancing Script";
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .maintexto {
