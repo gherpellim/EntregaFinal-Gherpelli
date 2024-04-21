@@ -322,10 +322,18 @@
 }
 
 .parrafoservicio {
-  font-family: "EB Garamond", serif;
-  font-size: 24px;
+  font-family: "EB Garamond";
+  font-size: 18px;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 2.5;
   text-align: center;
-  margin: 20px 0;
+  font-weight: 50px;
+  margin: 30px;
+  margin-bottom: 10px;
 }
 
 .experienciak {
@@ -342,6 +350,25 @@
   font-family: "Dancing Script";
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.mainhistoria {
+  background-color: rgb(214, 198, 193);
+}
+
+.imagenesHISTORIA {
+  display: flex;
+  justify-content: center;
+}
+
+.img8 {
+  width: auto;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 20px; /* Márgenes para separar la imagen */
+  border-radius: 10px; /* Borde redondeado */
+  opacity: 0.7;
 }
 
 .maintexto {

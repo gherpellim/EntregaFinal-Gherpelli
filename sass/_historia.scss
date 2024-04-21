@@ -1,0 +1,15 @@
+.mainhistoria {
+    background-color: rgb(214, 198, 193);
+}
+.imagenesHISTORIA {
+    display: flex;
+    justify-content: center;
+}
+.img8 {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: 20px; /* Márgenes para separar la imagen */
+    border-radius: 10px; /* Borde redondeado */
+    opacity: 0.7;
+}
