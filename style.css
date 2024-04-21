@@ -66,7 +66,7 @@
 
 .header1 { /**MODIFICADO**/
   width: 100%;
-  height: auto;
+  height: 800px;
   flex-wrap: wrap;
   -o-object-fit: cover;
      object-fit: cover;
@@ -109,7 +109,7 @@
 }
 
 .textoinicial {
-  background-color: rgb(214, 198, 193);
+  background-color: #F6D8BB;
 }
 
 .div-inicio {
@@ -151,7 +151,7 @@
 }
 
 .galeriaindex {
-  background-color: rgb(214, 198, 193);
+  background-color: #F6D8BB;
 }
 
 .galeria {
@@ -201,7 +201,7 @@
   height: 100%;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  background-color: rgb(214, 198, 193);
+  background-color: #F6D8BB;
 }
 
 .linkhistoria {
@@ -224,7 +224,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(214, 198, 193);
+  background-color: #F6D8BB;
 }
 
 .Nombre {
@@ -272,7 +272,7 @@
 }
 
 .footerfinal {
-  background-color: rgb(214, 198, 193);
+  background-color: #F6D8BB;
   text-align: center;
 }
 
