@@ -1,0 +1,89 @@
+.contenedor { /**MODIFICADO**/
+    display: flex;
+    align-items: center;
+    top: 0; 
+    width: 100%;  
+    position: sticky;
+     
+}
+.navegador { /**MODIFICADO**/
+    background-color: white;
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5); /* Cambia el último valor (0.5) para ajustar la transparencia */
+    backdrop-filter: blur(5px); /* Aplica un desenfoque al fondo */
+   
+} 
+.navegador-imagen { /**MODIFICADO**/
+    width: 120px; /* Ajusta el ancho del logo */
+    height: auto; /* Para mantener la proporción */
+}
+.listainicio {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+}
+.listainicio-li{
+    margin-right: 20px;
+}
+.listainicio-li a { /**MODIFICADO**/
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.listainicio-li a:hover {
+    color: #fff; 
+    text-decoration: underline;
+    transform: translateY(-3px);
+}
+.header {
+    display: flex;
+ }
+ .header1 {  /**MODIFICADO**/
+     width: 100%;
+     height: auto;
+     flex-wrap: wrap;
+     object-fit: cover;
+     position: relative;
+     z-index: -1;
+     opacity: 0.7;
+     background-color: rgba(255, 255, 255, 0.5); /* Cambia el último valor (0.5) para ajustar la transparencia */
+     backdrop-filter: blur(5px); /* Aplica un desenfoque al fondo */
+ }
+ .texto-sobreimagen {  /**MODIFICADO**/
+     color: black;
+     font-size: 60px;
+     font-family: "Dancing Script";
+     text-decoration: none;
+     text-align: center;
+     font-weight: normal;
+     font-style: italic;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ .texto-sobreimagen2 { /**MODIFICADO**/
+     color: black;
+     font-size: 30px;
+     font-family: "EB Garamond";
+     text-align: center;
+     text-decoration: none;
+     font-weight: normal;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     top: 90%; /* Ajusta la posición vertical */
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 

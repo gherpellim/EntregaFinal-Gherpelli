@@ -1,0 +1,39 @@
+.textoinicial {
+    background-color: rgb(214, 198, 193);
+}
+
+.div-inicio { 
+    color: black;
+    font-family: "EB Garamond";
+    font-size: 23px;
+    border: 15px;
+    margin: 0 30px 30px 30px;
+    padding-top: 20px;
+}
+.titulocomentarios { 
+    font-size: 40px; 
+    margin-bottom: 10px; 
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    font-family: "Dancing Script";
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.comentarios {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding-left: 10px;
+}
+
+.comentarios p {
+    font-family: "EB Garamond";
+    margin: 20px 10px; 
+    padding: 20px; 
+    color: rosybrown; 
+    border: 2px solid white; 
+    border-radius: 10px;
+    background-color: white;
+    flex-basis: 45%; 
+}
