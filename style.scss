@@ -5,6 +5,7 @@
 @import "./sass/servicio1";
 @import "./sass/historia";
 @import "./sass/contacto";
+@import "./sass/reset";
 
 .maintexto {
     font-size: 24px; 
@@ -25,3 +26,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+  @media(max-width: 992px) {
+    .comentarios {
+      flex-direction: column; 
+      gap: 30px;
+  }
+  .comentarios p {
+      font-size: 20px; 
+      font-weight: bold; 
+      flex-basis: 100%; 
+      border-width: 3px; 
+      padding: 30px; 
+  }
+  .galeria {
+    margin-left: 35px;
+    padding-left: 35px;
+  }
+  .imagenmain {
+    margin-right: 10px;
+  }
+  .h2medio2 {
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;  
+    clear: both; 
+    margin-top: 20px; 
+    text-align: center;
+  }
+  }
+  
+  
