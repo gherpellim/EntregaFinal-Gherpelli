@@ -450,6 +450,49 @@
 * {
   margin: 0;
 }/*# sourceMappingURL=style.css.map */
+@media(max-width: 480px) {
+  .main-contacto {
+    padding: 10px; 
+  }
+  
+  .formulario {
+    padding: 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+
+  .formulario input[type="email"],
+  .formulario input[type="text"],
+  .formulario input[type="number"],
+  .formulario input[type="checkbox"],
+  .formulario textarea {
+    font-size: 14px; 
+    padding: 8px;   
+  }
+  
+  .formulario button[type="submit"] {
+    padding: 12px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+  }
+  
+  .formulario select {
+    padding: 8px; 
+  }
+  
+  .formulario div {
+    margin-bottom: 10px; 
+  }
+
+  .formulario label {
+    font-size: 14px; 
+    color: #333;    
+  }
+  .titulosecundario {
+    font-size: 10px;
+    padding: 10px;
+  }
+}
 
 @media (max-width: 768px) {
   .navegador{
@@ -498,18 +541,42 @@
 }
 .contenedorfinal {
   display: flex;
-  flex-direction: column; /* Apila los elementos verticalmente */
-  align-items: center;   /* Centra horizontalmente */
+  flex-direction: column; 
+  align-items: center;   
 }
 
 .imagenmain {
-  width: auto; /* Ocupa todo el ancho */
+  width: auto; 
   height: 300px;
 }
 
 .h2medio2 {
-  margin-top: 20px; /* Ajusta el margen superior */
+  margin-top: 20px; 
   text-align: center;
+}
+.titulosecundario {
+  font-size: 40px;
+}
+.h2medio2 {
+  font-size: 15px;
+}
+.beneficios {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.parrafoservicio {
+  font-size: 15px;
+}
+.experiencia {
+  font-size: 30px;
+}
+.img8 {
+  width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.7;
 }
 }
 @media(max-width: 992px) {
@@ -561,15 +628,15 @@
 }
 .contenedorfinal {
   display: flex;
-  flex-direction: column; /* Apila los elementos verticalmente */
-  align-items: center;   /* Centra horizontalmente */
+  flex-direction: column; 
+  align-items: center;  
 }
 .imagenmain {
-  width: auto; /* Ocupa todo el ancho */
+  width: auto; 
   height: 300px;
 }
 .h2medio2 {
-  margin-top: 20px; /* Ajusta el margen superior */
+  margin-top: 20px; 
   text-align: center;
 }
 .footerfinal {
@@ -583,7 +650,32 @@
   font-size: 18px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+.titulosecundario {
+  font-size: 40px;
 }
+.h2medio2 {
+  font-size: 15px;
+}
+.beneficios {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.parrafoservicio {
+  font-size: 15px;
+}
+.experiencia {
+  font-size: 30px;
+}
+.img8 {
+  width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+}
+
 
 
 
