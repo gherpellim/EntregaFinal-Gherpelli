@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
@@ -132,11 +131,11 @@
 }
 
 .galeria {
-  width: 80%; /** AL PADRE SE LO DECLARAMOS**/
+  width: 80%;
   margin: auto;
-  gap: 10px; /**separa cada imagen dentro de la grilla**/
+  gap: 10px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /**FR es que cada columna va a medir una fraccion del padre**/
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 200px);
   padding: 50px;
   padding-left: 150px;
@@ -268,16 +267,16 @@
 
 .sectionservico {
   background-color: #F6D8BB;
-  padding: 20px; /* Añade espacio interno para evitar superposiciones */
+  padding: 20px;
 }
 
 .imagen7 {
   width: 100%;
   height: 600px;
   -o-object-fit: cover;
-     object-fit: cover; /* Ajusta el tamaño de la imagen para adaptarse al contenedor */
-  opacity: 0.5; /* Asegúrate de que uses el punto decimal para la opacidad */
-  z-index: 1; /* Ajusta el orden de superposición */
+     object-fit: cover;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .titulosecundario {
@@ -287,7 +286,7 @@
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   padding-top: 50px;
-  padding-bottom: 20px; /* Añade espacio para evitar superposiciones */
+  padding-bottom: 20px;
 }
 
 .beneficios {
@@ -314,7 +313,7 @@
 
 .experienciak {
   background-color: #F6D8BB;
-  padding: 20px; /* Añade espacio interno para evitar superposiciones */
+  padding: 20px;
 }
 
 .experiencia {
@@ -342,8 +341,8 @@
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: 20px; /* Márgenes para separar la imagen */
-  border-radius: 10px; /* Borde redondeado */
+  margin: 20px;
+  border-radius: 10px;
   opacity: 0.7;
 }
 

@@ -1,14 +1,14 @@
 .sectionservico {
     background-color: #F6D8BB;
-    padding: 20px; /* Añade espacio interno para evitar superposiciones */
+    padding: 20px; 
 }
 
 .imagen7 {
     width: 100%;
     height: 600px;
-    object-fit: cover; /* Ajusta el tamaño de la imagen para adaptarse al contenedor */
-    opacity: 0.5; /* Asegúrate de que uses el punto decimal para la opacidad */
-    z-index: 1; /* Ajusta el orden de superposición */
+    object-fit: cover; 
+    opacity: 0.5; 
+    z-index: 1; 
 }
 
 .titulosecundario {
@@ -18,7 +18,7 @@
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
     padding-top: 50px;
-    padding-bottom: 20px; /* Añade espacio para evitar superposiciones */
+    padding-bottom: 20px; 
 }
 
 .beneficios {
@@ -43,7 +43,7 @@
 }
 .experienciak {
     background-color: #F6D8BB;
-    padding: 20px; /* Añade espacio interno para evitar superposiciones */
+    padding: 20px; 
 }
 .experiencia {
     font-size: 40px; 

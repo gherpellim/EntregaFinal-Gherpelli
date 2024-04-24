@@ -2,11 +2,11 @@
     background-color: #F6D8BB;
 }
 .galeria {
-    width: 80%; /** AL PADRE SE LO DECLARAMOS**/
+    width: 80%; 
     margin: auto;
-    gap: 10px; /**separa cada imagen dentro de la grilla**/
+    gap: 10px; 
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /**FR es que cada columna va a medir una fraccion del padre**/ 
+    grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: repeat(4, 200px);
     padding: 50px;
     padding-left: 150px;
