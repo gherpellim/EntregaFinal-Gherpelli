@@ -56,3 +56,20 @@
         color: #E38AB7;
 }
 }
+@media (max-width: 600px) {
+    .galeria {
+        margin-left: 35px;
+        padding-left: 35px;
+        width: auto;
+      }
+}
+@media (max-width: 992px) {
+    .galeria {
+        margin-left: 35px;
+        padding-left: 35px;
+        width: auto;
+      }
+      *{
+        margin: 0; 
+    }
+}
