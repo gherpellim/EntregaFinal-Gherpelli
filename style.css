@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 .contenedor-principal {
   position: relative;
   height: 800px;
@@ -16,7 +19,7 @@
   z-index: 1;
 }
 
-.navegador { /**MODIFICADO**/
+.navegador {
   background-color: white;
   display: flex;
   align-items: center;
@@ -35,36 +38,11 @@
   height: auto;
 }
 
-.listainicio {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.listainicio-li {
-  margin-right: 20px;
-}
-
-.listainicio-li a { /**MODIFICADO**/
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-
-.listainicio-li a:hover {
-  color: #fff;
-  text-decoration: underline;
-  transform: translateY(-3px);
-}
-
 .header {
   display: flex;
 }
 
-.header1 { /**MODIFICADO**/
+.header1 {
   width: 100%;
   height: 800px;
   flex-wrap: wrap;
@@ -78,7 +56,7 @@
           backdrop-filter: blur(5px);
 }
 
-.texto-sobreimagen { /**MODIFICADO**/
+.texto-sobreimagen {
   color: black;
   font-size: 60px;
   font-family: "Dancing Script";
@@ -92,7 +70,7 @@
   transform: translate(-50%, -50%);
 }
 
-.texto-sobreimagen2 { /**MODIFICADO**/
+.texto-sobreimagen2 {
   color: black;
   font-size: 30px;
   font-family: "EB Garamond";
@@ -138,12 +116,11 @@
   gap: 20px;
   padding-left: 10px;
 }
-
 .comentarios p {
   font-family: "EB Garamond";
   margin: 20px 10px;
   padding: 20px;
-  color: rosybrown;
+  color: black;
   border: 2px solid white;
   border-radius: 10px;
   background-color: white;
@@ -214,8 +191,7 @@
   font-size: 18px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
-.linkhistoria:hover {
+.linkhistoria hover {
   background-color: #fff;
   color: #E38AB7;
 }
@@ -436,6 +412,10 @@
   font-size: 16px;
 }
 
+* {
+  margin: 0;
+}
+
 .maintexto {
   font-size: 24px;
   margin-bottom: 10px;
@@ -449,233 +429,33 @@
 
 * {
   margin: 0;
-}/*# sourceMappingURL=style.css.map */
-@media(max-width: 480px) {
-  .main-contacto {
-    padding: 10px; 
-  }
-  
-  .formulario {
-    padding: 15px; 
-    border-radius: 5px; 
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
-  }
-
-  .formulario input[type="email"],
-  .formulario input[type="text"],
-  .formulario input[type="number"],
-  .formulario input[type="checkbox"],
-  .formulario textarea {
-    font-size: 14px; 
-    padding: 8px;   
-  }
-  
-  .formulario button[type="submit"] {
-    padding: 12px; 
-    font-size: 16px; 
-    border-radius: 5px; 
-  }
-  
-  .formulario select {
-    padding: 8px; 
-  }
-  
-  .formulario div {
-    margin-bottom: 10px; 
-  }
-
-  .formulario label {
-    font-size: 14px; 
-    color: #333;    
-  }
-  .titulosecundario {
-    font-size: 10px;
-    padding: 10px;
-  }
 }
 
-@media (max-width: 768px) {
-  .navegador{
+@media (max-width: 992px) {
+  .comentarios {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .comentarios p {
+    font-size: 20px;
+    font-weight: bold;
+    flex-basis: 100%;
+    border-width: 3px;
+    padding: 30px;
+  }
+  .galeria {
+    margin-left: 35px;
+    padding-left: 35px;
+  }
+  .imagenmain {
+    margin-right: 10px;
+  }
+  .h2medio2 {
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
   }
-  .navegador-imagen {
-    height: auto;
-  }
-  .header1 {
-  height: auto;
-  width: 100%;
-  padding-bottom: 0;
-  object-fit: cover;
-}
-.texto-sobreimagen {
-  font-size: 35px;
-}
-.texto-sobreimagen2 {
-  font-size: 25px;
-}
-.div-inicio {
-  font-size: 15px;
-  margin: 10px;
-  margin-top: 0px;
-}
-.titulocomentarios {
-  font-size: 30px; 
-    margin-bottom: 10px; 
-    text-align: center;
-    margin-top: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.comentarios {
-  flex-direction: column; 
-  gap: 30px;
-}
-.comentarios p {
-  font-size: 15px; 
-  font-weight: bold; 
-  flex-basis: 100%; 
-  border-width: 3px; 
-  padding: 30px; 
-}
-.contenedorfinal {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;   
-}
-
-.imagenmain {
-  width: auto; 
-  height: 300px;
-}
-
-.h2medio2 {
-  margin-top: 20px; 
-  text-align: center;
-}
-.titulosecundario {
-  font-size: 40px;
-}
-.h2medio2 {
-  font-size: 15px;
-}
-.beneficios {
-    font-size: 20px;
-    text-align: center;
-    margin: 20px 0;
-}
-.parrafoservicio {
-  font-size: 15px;
-}
-.experiencia {
-  font-size: 30px;
-}
-.img8 {
-  width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-    opacity: 0.7;
-}
-}
-@media(max-width: 992px) {
-  * { 
-    margin: 0;
-    padding: 0;
-}
-.navegador {
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-.navegador-imagen {
-  height: auto;
-}
-.listainicio {
-  margin-top: 10px;
-}
-.header1 {
-  height: auto;
-  width: 100%;
-  padding-bottom: 0;
-}
-.texto-sobreimagen {
-  font-size: 40px;
-}
-.texto-sobreimagen2 {
-  font-size: 30px;
-}
-.div-inicio {
-  font-size: 15px;
-  margin: 10px;
-  margin-top: 0px;
-}
-  .comentarios {
-    flex-direction: column; 
-    gap: 30px;
-}
-.comentarios p {
-    font-size: 15px; 
-    font-weight: bold; 
-    flex-basis: 100%; 
-    border-width: 3px; 
-    padding: 30px; 
-}
-.galeria {
-  margin-left: 35px;
-  padding-left: 35px;
-}
-.contenedorfinal {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;  
-}
-.imagenmain {
-  width: auto; 
-  height: 300px;
-}
-.h2medio2 {
-  margin-top: 20px; 
-  text-align: center;
-}
-.footerfinal {
-  text-align: center;
-}
-.linkfooter {
-  display: inline-block;
-  text-align: center;
-  padding: 10px 20px; 
-  text-decoration: none;
-  font-size: 18px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-.titulosecundario {
-  font-size: 40px;
-}
-.h2medio2 {
-  font-size: 15px;
-}
-.beneficios {
-    font-size: 20px;
-    text-align: center;
-    margin: 20px 0;
-}
-.parrafoservicio {
-  font-size: 15px;
-}
-.experiencia {
-  font-size: 30px;
-}
-.img8 {
-  width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-    opacity: 0.7;
-}
-}
-
-
-
-
+}/*# sourceMappingURL=style.css.map */

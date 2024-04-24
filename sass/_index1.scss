@@ -25,15 +25,14 @@
     flex-wrap: wrap; 
     gap: 20px; 
     padding-left: 10px;
-}
-
-.comentarios p {
-    font-family: "EB Garamond";
-    margin: 20px 10px; 
-    padding: 20px; 
-    color: rosybrown; 
-    border: 2px solid white; 
-    border-radius: 10px;
-    background-color: white;
-    flex-basis: 45%; 
+    p {
+        font-family: "EB Garamond";
+        margin: 20px 10px; 
+        padding: 20px; 
+        color: black; 
+        border: 2px solid white; 
+        border-radius: 10px;
+        background-color: white;
+        flex-basis: 45%; 
+    }
 }
