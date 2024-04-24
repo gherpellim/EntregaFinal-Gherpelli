@@ -6,6 +6,17 @@
   margin: 0;
 }
 
+.formulario button[type=submit] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(218, 109, 127);
+  color: white;
+  font-size: 20px;
+}
+
 .contenedor-principal {
   position: relative;
   height: 800px;
