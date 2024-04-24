@@ -495,13 +495,46 @@
   padding-bottom: 30px;
 }
 
+@media (max-width: 480px) {
+  .titulosecundario {
+    font-size: 35px;
+  }
+  .experiencia {
+    font-size: 30px;
+    text-align: center;
+  }
+  .beneficios {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+@media (max-width: 600px) {
+  .titulosecundario {
+    font-size: 40px;
+  }
+  .beneficios {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .experiencia {
+    font-size: 35px;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .titulosecundario {
+    font-size: 45px;
+  }
+}
 .mainhistoria {
   background-color: #F6D8BB;
 }
 
 .imagenesHISTORIA {
-  display: flex;
   justify-content: center;
+  display: flex;
 }
 
 .img8 {
@@ -514,6 +547,30 @@
   opacity: 0.7;
 }
 
+@media (max-width: 480px) {
+  .img8 {
+    width: 300px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 600px) {
+  .img8 {
+    width: 400px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 992px) {
+  .img8 {
+    width: 600px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 .main-contacto {
   display: flex;
   justify-content: center;
@@ -560,7 +617,7 @@
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #4CAF50;
+  background-color: rgb(218, 109, 127);
   color: white;
   font-size: 20px;
 }
@@ -579,6 +636,39 @@
   font-size: 16px;
 }
 
+@media (max-width: 480px) {
+  .main-contacto {
+    padding: 10px;
+  }
+  .formulario {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .formulario input[type=email],
+  .formulario input[type=text],
+  .formulario input[type=number],
+  .formulario input[type=checkbox],
+  .formulario textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .formulario button[type=submit] {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .formulario select {
+    padding: 8px;
+  }
+  .formulario div {
+    margin-bottom: 10px;
+  }
+  .formulario label {
+    font-size: 14px;
+    color: #333;
+  }
+}
 .maintexto {
   font-size: 24px;
   margin-bottom: 10px;

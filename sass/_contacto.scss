@@ -39,7 +39,7 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: $color-primario;
     color: white;
     font-size: 20px;
 }
@@ -56,4 +56,42 @@
     font-size: 16px;
 }
 
-
+@media (max-width: 480px) {
+    .main-contacto {
+      padding: 10px; 
+    }
+    
+    .formulario {
+      padding: 15px; 
+      border-radius: 5px; 
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    }
+  
+    .formulario input[type="email"],
+    .formulario input[type="text"],
+    .formulario input[type="number"],
+    .formulario input[type="checkbox"],
+    .formulario textarea {
+      font-size: 14px; 
+      padding: 8px;   
+    }
+    
+    .formulario button[type="submit"] {
+      padding: 12px; 
+      font-size: 16px; 
+      border-radius: 5px; 
+    }
+    
+    .formulario select {
+      padding: 8px; 
+    }
+    
+    .formulario div {
+      margin-bottom: 10px; 
+    }
+  
+    .formulario label {
+      font-size: 14px; 
+      color: #333;    
+  }
+}

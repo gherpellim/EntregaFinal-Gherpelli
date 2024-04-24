@@ -55,3 +55,36 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+@media (max-width: 480px) {
+    .titulosecundario {
+        font-size: 35px;
+    }
+    .experiencia {
+        font-size: 30px;
+        text-align: center;
+    }
+    .beneficios {
+        font-size: 15px;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+@media (max-width: 600px) {
+    .titulosecundario {
+        font-size: 40px;
+    }
+    .beneficios {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .experiencia {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+@media (max-width: 992px) {
+    .titulosecundario {
+        font-size: 45px;
+    }
+}
