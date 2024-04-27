@@ -50,11 +50,13 @@
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    & hover {
-        background-color: #fff;
-        color: #E38AB7;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
 }
+
+.linkhistoria:hover {
+    background-color: #fff;
+    color: #E38AB7;
+    transform: translateY(-5px); 
 }
 @media (max-width:480px) {
     @media (max-width: 480px) {

@@ -24,10 +24,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+    margin-left: 20px;
     object-fit: cover;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
-    padding-left: 15px;
 }
 
 .h2medio2 {
@@ -52,21 +52,23 @@
     color:dimgrey
 }
 .linkfooter {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    background-color: $color-secundario; 
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    & hover {
-        background-color: #fff;
-        color: #E38AB7;
-    }
-
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: $color-secundario; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
 }
+
+.linkfooter:hover { 
+  background-color: #fff;
+  color: #E38AB7;
+  transform: translateY(-5px); 
+}
+
 @media (max-width: 480) {
     .imagenmain {
         width:300px; 

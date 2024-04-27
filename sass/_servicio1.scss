@@ -54,6 +54,10 @@
     font-family: "Dancing Script";
     padding-top: 30px;
     padding-bottom: 30px;
+    transition: 0,5s;
+}
+.experiencia:hover {
+    transform: translate(5px,5px);
 }
 @media (max-width: 480px) {
     .titulosecundario {
