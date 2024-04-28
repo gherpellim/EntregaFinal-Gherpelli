@@ -603,8 +603,19 @@
   border-radius: 10px;
   background-color: #f9f9f9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation-name: movimiento;
+  animation-duration: 5s;
+  animation-iteration-count: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
+@keyframes movimiento {
+  0% {
+    transform: translate(1px, 20px);
+  }
+  20% {
+    background-color: rgb(161, 52, 70);
+  }
+}
 .formulario div {
   margin-bottom: 20px;
 }
